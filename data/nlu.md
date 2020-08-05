@@ -15,7 +15,7 @@
 - I'm fine
 - I'm good
 
-## intent:keyword
+## intent:search_keyword
 - can you search for [keyword]?
 - search for [keyword]
 - look up for [keyword]
