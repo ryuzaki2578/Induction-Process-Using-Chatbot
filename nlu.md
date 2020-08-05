@@ -19,6 +19,7 @@
 - can you search for [keyword]?
 - search for [keyword]
 - look up for [keyword]
+- [keyword]
 ## intent:thanks
 - Thanks
 - Thank you so much
