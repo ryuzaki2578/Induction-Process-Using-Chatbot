@@ -1,32 +1,32 @@
 intents:
-  # add your intents
   - greet
-  - thank
-  - bye
-  - deny
+  - goodbye
   - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
 
-entities:
-  # replace with your entities
-  - example_entity
-
-slots:
-  # replace with your slots
-  example_slot:
-    type: unfeaturized
-
-templates:
-  # templates the bot should respond with
+responses:
   utter_greet:
-    - "Hey, how can I help you?"
-  utter_thank:
-    - "You're welcome!"
-  utter_bye:
-    - "Goodbye"
+  - text: "Hey! How are you?"
 
-actions:
-  # all the utter actions from the templates, plus any custom actions
-  - utter_greet
-  - utter_thank
-  - utter_bye
-  - actions.ActionExample
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
