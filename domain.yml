@@ -6,6 +6,17 @@ intents:
   - searchQuery
   - WUQuery
 
+entities:
+  - keyword
+
+actions:
+  - action_displayResults
+
+
+slots:
+  keyword:
+    type: text
+
 responses:
   utter_greet:
   - text: "Hey!"
@@ -21,11 +32,9 @@ responses:
   utter_goodbye:
   - text: "ThankYou, Have a Nice day!!"
   utter_displayAboutWU:
-  - text:"WU Description to be added"
+  - text: "WU Description to be added"
   utter_searchKeyword:
-  - text:"Searchaction to be added"
-  utter_displayResults:
-  - text:"DisplayResult action to be added"
+  - text: " Please wait... "
 
 session_config:
   session_expiration_time: 60

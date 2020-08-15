@@ -28,9 +28,22 @@
 - not really
 
 ## intent:searchQuery
-- Search for [something](keywords)
-- Look for [something](keywords)
-- can you help me with [something](keywords)
+- [Campus Commune](keyword)
+- [TCS EXOPS](keyword)
+- [TCS Events](keyword)
+- Search for [Campus Commune](keyword) 
+- Search for [TCS EXOPS](keyword)
+- Search for [TCS Events](keyword)
+- Look for [Campus Commune](keyword)
+- Look for [TCS EXOPS](keyword)
+- look for [TCS Events](keyword)
+- can you help me with [Campus Commune](keyword)
+- can you help me with [TCS EXOPS](keyword)
+- can you help me with [TCS Events](keyword)
+- Find [Campus Commune](keyword)
+- Find [TCS EXOPS](keyword)
+- Find me [TCS Events](keyword)
+
 ## intent:WUQuery
 - What is Western Union?
 - What is WU?
