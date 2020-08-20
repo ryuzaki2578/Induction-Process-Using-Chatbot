@@ -6,8 +6,7 @@
 import requests
 bot_message=""
 while bot_message !="Bye":
-    message =input("Message")
-    print("Sending message now..")
+    message =input("")
     r= requests.post('http://localhost:5002/webhooks/rest/webhook',json={"message":message})
     for i in r.json():
         bot_message=i['text']

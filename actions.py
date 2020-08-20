@@ -17,6 +17,7 @@ class ActionDisplayResults(Action):
         track=tracker.latest_message["entities"]
         mongoConn=MongoClient("mongodb+srv://Admin:Admin@cluster0-q4yrs.mongodb.net/FP?retryWrites=true&w=majority")
         myDb=mongoConn['ChatBot']
+        print(track)
         search_value=str(track[0]['value'])
         description="Not Found"
         if myDb!=None:
