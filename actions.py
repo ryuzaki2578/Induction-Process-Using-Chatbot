@@ -5,7 +5,6 @@
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
 
-# This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
@@ -26,6 +25,6 @@ class ActionDisplayResults(Action):
                 if(i['keyword'].lower().find(search_value.lower())>=0):
                     description=i['description']
                     print(i)
-        message="I am displaying result for the keyword "+ search_value +"!\n"+description
+        message="I am displaying result for the keyword "+ search_value+'\n'+ description
         dispatcher.utter_message(text=message)
         return []

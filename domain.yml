@@ -8,6 +8,7 @@ intents:
 
 entities:
   - keyword
+  - lookup
 
 actions:
   - action_displayResults
@@ -35,6 +36,8 @@ responses:
   - text: "WU Description to be added"
   utter_searchKeyword:
   - text: " Please wait... "
+  utter_bye:
+  - text: "Bye"
 
 session_config:
   session_expiration_time: 60

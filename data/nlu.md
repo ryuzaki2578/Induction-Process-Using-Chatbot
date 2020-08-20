@@ -26,23 +26,20 @@
 - don't like that
 - no way
 - not really
+# lookup:lookup
+data/lookup/lookup.txt
 
 ## intent:searchQuery
-- [Campus Commune](keyword)
-- [TCS EXOPS](keyword)
-- [TCS Events](keyword)
-- Search for [Campus Commune](keyword) 
-- Search for [TCS EXOPS](keyword)
-- Search for [TCS Events](keyword)
-- Look for [Campus Commune](keyword)
-- Look for [TCS EXOPS](keyword)
-- look for [TCS Events](keyword)
-- can you help me with [Campus Commune](keyword)
-- can you help me with [TCS EXOPS](keyword)
-- can you help me with [TCS Events](keyword)
-- Find [Campus Commune](keyword)
-- Find [TCS EXOPS](keyword)
-- Find me [TCS Events](keyword)
+- [Campus Commune](lookup)
+- [TCS Events](lookup)
+- Search for [Campus Commune](lookup) 
+- Search for [TCS Events](lookup)
+- Look for [Campus Commune](lookup)
+- look for [TCS Events](lookup)
+- can you help me with [Campus Commune](lookup)
+- can you help me with [TCS Events](lookup)
+- Find [Campus Commune](lookup)
+- Find me [TCS Events](lookup)
 
 ## intent:WUQuery
 - What is Western Union?

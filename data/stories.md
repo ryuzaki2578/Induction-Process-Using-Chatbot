@@ -28,3 +28,6 @@
 * WUQuery
   - utter_displayAboutWU
   - utter_goodbye
+##goodbye
+*goodbye
+  -utter_bye
