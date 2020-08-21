@@ -12,7 +12,19 @@ To digitalize Induction Process
 			-rasa shell --debug
 		-For adding search keywords in lookup file(i.e. documents & video titles etc) update the lookup.txt file ./data/lookup
 		-Add the document in mongoDB with document title('keyword
-
+		-Schema of the mongodb Document:
+		{
+			"_id": { "bsonType": BSON.ObjectId() }
+			"keyword": {"bsonType": "string"},
+			"description":{"bsonType": "string"}
+		}
+		-Adding a document: 
+		{
+			"_id":{"$oid":"5f37ef25bb3dfbd192cc2d45"},
+			"keyword":"TCS Internships",
+			"description":"Go through this link: https://www.tcs.com/tcs-ion-launches-remote-internships-product-to-connect-students-with-industry-mentors"
+		}
+		
 ### Prerequisites
 	-For the project we need
 		-python 3.7
