@@ -4,12 +4,12 @@ To digitalize Induction Process
 
 ## Getting Started
 
-For running the chatbot local machine do the following
-	-Be in project directory
-	-Start action server by using the command
-		-rasa run actions
-	-Run the chatbot in debug mode by using the following command
-		-rasa shell --debug
+	-For running the chatbot local machine do the following
+		-Be in project directory
+		-Start action server by using the command
+			-rasa run actions
+		-Run the chatbot in debug mode by using the following command
+			-rasa shell --debug
 
 ### Prerequisites
 	-For the project we need
