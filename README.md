@@ -10,7 +10,7 @@ To digitalize Induction Process
 			-rasa run actions
 		-Run the chatbot in debug mode by using the following command
 			-rasa shell --debug
-		-For adding keywords in lookup file(i.e. documents,video titles etc) update the lookup.txt file ./data/lookup
+		-For adding search keywords in lookup file(i.e. documents & video titles etc) update the lookup.txt file ./data/lookup
 		-Add the document in mongoDB with document title('keyword
 
 ### Prerequisites
